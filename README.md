@@ -21,3 +21,6 @@ Describe obstacles faced and how they were resolved.
 **Future Improvements**
 
 List enhancements that would be made with additional time.
+
+**Reference**
+Icons8 for footer social media logos.
