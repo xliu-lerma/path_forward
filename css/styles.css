@@ -28,7 +28,7 @@ html, body {
     text-decoration: none;
 }
 
-.nav a:hover {
+.main-nav a:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -51,13 +51,48 @@ html, body {
 
 .project-name {
     margin: 0;
-    padding: 0;
+    padding: 0.5em;
     text-align: center;
     font-family: Nunito;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
 }
 
 .project-name-large {
     font-size: 4em;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+
+
+
+
+
+.main-footer {
+    background-color: burlywood;
+    padding: 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-nav li {
+    padding: 0 1em;
 }
